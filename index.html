@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <div class="icons">
+    <a href="#" class="text-info "><i class="fab fa-facebook-square d-block "></i></a>
+    <a href="#" class="text-info"><i class="fab fa-twitter-square d-block "></i></a>
+    <a href="#" class="text-info"><i class="fab fa-linkedin d-block  "></i></a>
+    <a href="#" class="text-info"><i class="fab fa-twitter-square d-block  "></i></a>
+    <a href="#" class="text-info"><i class="fab fa-instagram-square d-block  "></i></a>
+  </div>
+  <div class="overlay" id="overlay"></div>
+  <!-- ---------------start of header------------------- -->
+  <div class="container-fluid d-flex navbar-light bg-light head">
+    <div class="col-12 navbar navbar-expand-lg">
+      <div class=" d-flex align-items-center ">
+        <img src="images/6048b4ae7f74724389d345767e8061a0.jpg " alt="" class="mr-2 rounded-circle head-img my-2">
+        <p class="  head-line">TRAVEL</p>
+      </div>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" aria-label="toggle navigation"
+        aria-expanded="false" data-target="#navbarlist" aria-controls="navbarlist">
+        <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <div class=" justify-content-between collapse navbar-collapse " id="navbarlist">
+        <ul class="nav  flex-column flex-lg-row  align-items-lg-center align-items-start">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-info">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-info">Profile</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link text-info btn border-info dropdown-toggle head-list-item"
+              data-toggle="dropdown"><span class="hotels">H</span>otels</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item text-info">Hilton </a>
+              <a href="#" class="dropdown-item text-info">Marriott</a>
+              <hr>
+              <a href="#" class="dropdown-item text-info">Sheraton</a>
+              <a href="#" class="dropdown-item text-info">Four seasons</a>
+              <a href="#" class="dropdown-item text-info">Hyatt</a>
+              <a href="#" class="dropdown-item text-info">Fairmont</a>
+              <a href="#" class="dropdown-item text-info">more....</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-info">countries</a>
+          </li>
+        </ul>
+        <form class="form-inline flex-column flex-lg-row align-items-start">
+          <input type="text" name="" id="" class="form-control ml-3 " placeholder="Search">
+          <button class="btn bg-info text-white ml-3 my-2 my-lg-0" type="submit ">Search</button>
+          <button class="btn bg-info text-white ml-3 login-btn" type="button">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--------------------------end of header----------- -->
+  <!-- ---------------start of login card ---------- -->
+  <div class="card  col-lg-4  px-0 login-card position-fixed  " style="display: none;">
+    <div class="navbar bg-info card-title ">
+      <ul class="nav">
+        <li class="nav-item font-weight-bold text-white">
+          Login
+        </li>
+      </ul>
+      <ul class="nav ">
+        <li class="nav-item close ">
+          <p class="close-item font-weight-bold "> &times;</p>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="email" class="text-info">Email Address</label>
+        <input type="email" class="form-control" id="email">
+        <p class="text-secondary small">We will never share your email address with anyone else</p>
+      </div>
+      <div class="form-group">
+        <label for="pwd" class="text-info">Password</label>
+        <input type="password" class="form-control mb-2 " id="pwd">
+        <input type="checkbox" id="remamber" class="ml-3">
+        <label for="remamber " class="ml-2">Remamber me</label>
+      </div>
+      <hr>
+      <div class="navbar  ">
+        <ul class="nav">
+          <li class="nav-item">
+            <button class="btn bg-info text-white login-btn">login</button>
+          </li>
+        </ul>
+        <ul class="nav ">
+          <li class="nav-item  ">
+            <button class="btn bg-info text-white card-close">close</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------end of login card------------- -->
+  <!-- ---------------------start of main page---------- -->
+  <main class="container-fluid">
+    <div class="carousel slide" id="main" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#main" data-slide-to="0" class="active"></li>
+        <li data-target="#main" data-slide-to="1"></li>
+        <li data-target="#main" data-slide-to="2"></li>
+        <li data-target="#main" data-slide-to="3"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item main-item1 active ">
+          <div class="container main-card text-center ">
+            <h1 class=" text-light font-weight-bold">Egypt</h1>
+            <p class="font-weight-bold">Where ancient wonders rise from golden sands, and the Nile whispers stories of
+              pharaohs and timeless glory.</p>
+            <button class="btn bg-dark text-light">view</button>
+          </div>
+        </div>
+        <div class="carousel-item main-item2 ">
+          <div class="container main-card text-center ">
+            <h1 class=" text-light font-weight-bold">Canada</h1>
+            <p class="font-weight-bold">Snowy landscapes and vibrant cities.</p>
+            <button class="btn bg-dark text-light">view</button>
+          </div>
+        </div>
+        <div class="carousel-item main-item3">
+          <div class="container main-card text-center ">
+            <h1 class=" text-light font-weight-bold"> Switzerland</h1>
+            <p class="font-weight-bold">Mountains, lakes, and timeless peace.</p>
+            <button class="btn bg-dark text-light">view</button>
+          </div>
+        </div>
+        <div class="carousel-item main-item4">
+          <div class="container main-card text-center ">
+            <h1 class=" text-light font-weight-bold">south korea</h1>
+            <p class="font-weight-bold">Ancient cities and cultural heritage.</p>
+            <button class="btn bg-dark text-light">view</button>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#main" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <div class="container-fluid bg-dark main-border p-3 pl-5 mb-2 ">
+      <h2 class="text-light">Welcome</h2>.
+      <p class="text-secondary">Are you planning to visit somewhere? we offer many offers to visit many countries,we
+        will take care of your needs,24/7customer services </p>
+      <button class="btn bg-light text-dark ">Learn more</button>
+    </div>
+    <hr class=" ">
+  </main>
+  <!-- ------------------------end of main page----------  -->
+  <!-- ---------------------------start of section2------- -->
+  <div class="container-fluid">
+    <div class="container-fluid bg-info text-center p-5 rounded ">
+      <h3 class=" font-weight-bold text-light">Discover most visited countries </h3>
+    </div>
+    <div class="accordion">
+      <div class="card">
+        <div class="card-header bg-dark text-light d-flex justify-content-between align-items-center">
+          <h3 data-toggle="collapse" data-target="#collapseitem1">EGYPT</h3>
+          <i class="fas fa-angle-down text-light " data-toggle="collapse" data-target="#collapseitem1"></i>
+        </div>
+        <div id="collapseitem1" class="collapse" data-parent="#accordion">
+          <div class="card-body ">
+            <p>Egypt is a country full of history and beauty. The pyramids, the Nile River, and sunny beaches make it a
+              unique place. Its mix of ancient sites and natural views attracts visitors from all over the world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header bg-dark text-light d-flex justify-content-between align-items-center">
+          <h3 data-toggle="collapse" data-target="#collapseitem2">South korea</h3>
+          <i class="fas fa-angle-down text-light " data-toggle="collapse" data-target="#collapseitem2"></i>
+        </div>
+        <div id="collapseitem2" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>Canada is known for its wide nature and clean cities. You can see snowy mountains, green forests, and
+              amazing lakes. It’s a peaceful and beautiful place with friendly people.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header bg-dark text-light d-flex justify-content-between align-items-center">
+          <h3 data-toggle="collapse" data-target="#collapseitem3">Canada</h3>
+          <i class="fas fa-angle-down text-light " data-toggle="collapse" data-target="#collapseitem3"></i>
+        </div>
+        <div id="collapseitem3" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>South Korea is a mix of old and new. Ancient temples stand beside modern buildings, and the seasons add
+              special charm. From mountains to city lights, it’s full of color and life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container-fluid bg-light pr-3">
+    <h2 class="bg-info text-center text-light rounded p-3 mb-3">Translate from Arabic to English</h2>
+    <p class="pl-4 ">Write and translate </p>
+    <a href="#" class="text-info pl-4 ">Press Here</a>
+    <button class="btn bg-info text-light d-block ml-4 mt-3 mb-3 copybutton1" data-toggle="tooltip"
+      title="copy to clipboard"> Copy</button>
+    <textarea name="" id="" placeholder="translate:" class="p-2  ml-4 translate"></textarea>
+  </div>
+  <hr>
+  <div class="container-fluid bg-light pr-3">
+    <h2 class="bg-info text-center text-light rounded p-3 mb-3">Translate from Arabic to French</h2>
+    <p class="pl-4 ">Write and translate </p>
+    <a href="#" class="text-info pl-4 ">Press Here</a>
+    <button class="btn bg-info text-light d-block ml-4 mt-3 mb-3 copybutton2" data-toggle="tooltip"
+      title="copy to clipboard"> Copy</button>
+    <textarea name="" id="" placeholder="translate:" class="p-2  ml-4 translate"></textarea>
+  </div>
+  <hr>
+  <div class="container-fluid bg-light pr-3">
+    <h2 class="bg-info text-center text-light rounded p-3 mb-3">Translate from Arabic to German</h2>
+    <p class="pl-4 ">Write and translate </p>
+    <a href="#" class="text-info pl-4 ">Press Here</a>
+    <button class="btn bg-info text-light d-block ml-4 mt-3 mb-3 copybutton3" data-toggle="tooltip"
+      title="copy to clipboard"> Copy</button>
+    <textarea name="" id="" placeholder="translate:" class="p-2  ml-4 translate"></textarea>
+  </div>
+  <hr>
+  <!-- ---------------------------end of section2------- -->
+  <!-- ---------------------------start of section3------- -->
+  <div class="container-fluid">
+    <div class="container-fluid moveimg1"></div>
+    <h2 class="rounded bg-info p-4 text-light text-center font-weight-bold mb-5"> Popular destinations in world</h2>
+    <div class="container-fluid d-lg-flex justify-content-between align-items-center mb-5 ">
+      <div class="card col-lg-3 pt-2 text-center section3-cards mb-5 mb-lg-0">
+        <img src="images/pexels-mohamed-eessa74-1306424906-24743610.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between ">
+          <h3 class="card-title ">luxor</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">The capital of ancienr kingdom</p>
+      </div>
+      <div class="card col-lg-3 pt-2 text-center section3-cards mb-5 mb-lg-0">
+        <img src="images/pexels-ingo-12180254.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Bern</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">The capital of Switzerland</p>
+      </div>
+      <div class="card col-lg-3 pt-2 text-center section3-cards">
+        <img src="images/pexels-kovyrina-1045915.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Ottawa</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">The capital of canada</p>
+      </div>
+    </div>
+    <div class="container-fluid d-lg-flex justify-content-between align-items-center mb-5 ">
+      <div class="card col-lg-3 pt-2 text-center section3-cards mb-5 mb-lg-0">
+        <img src="images/pexels-ahad-hasan-1816309676-32901301.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Aswan</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">nubian city in the south of Egypt</p>
+      </div>
+      <div class="card col-lg-3 pt-2 text-center section3-cards mb-5 mb-lg-0">
+        <img src="images/pexels-accankisi-3999943.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">istanbul</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">The capital of turky</p>
+      </div>
+      <div class="card col-lg-3 pt-2 text-center section3-cards">
+        <img src="images/pexels-sfean-zaben-552364-17528194.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Dahb</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">coastal city in Egypt</p>
+      </div>
+    </div>
+    <div class="container-fluid d-lg-flex justify-content-around align-items-center mb-5 ">
+      <div class="card col-lg-3 pt-2 text-center section3-cards mb-5 mb-lg-0">
+        <img src="images/pexels-ahmed-zaki-173186242-15859007.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Alexandria</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">coastal city in Egypt</p>
+      </div>
+      <div class="card col-lg-3 pt-2 text-center section3-cards">
+        <img src="images/pexels-matteo-roman-1151921619-21315979.jpg" alt="" class="card-img-top">
+        <div class="card-body d-flex justify-content-between">
+          <h3 class="card-title ">Fayoum</h3>
+          <button class="btn bg-info text-light "> learn more</button>
+        </div>
+        <p class="text-secondary">desert city in Egypt</p>
+      </div>
+    </div>
+    <div class="container-fluid moveimg2"></div>
+    <hr>
+  </div>
+  <!-- ---------------------------end of section3------- -->
+  <!-- ---------------------------start of section4 MANAGERS------- -->
+  <div class="container-fluid">
+    <h2 class="font-weight-bold text-light bg-info p-5 text-center rounded ">OUR MANEGARS</h2>
+    <div class="container-fluid d-lg-flex justify-content-around align-items-center">
+      <div class="col-lg-3 manegar1 mt-5 mb-5 manegar  p-3 justify-content-between d-flex flex-column">
+        <div class="">
+          <h4 class="text-light mangtxt">All thanks and appreciation</h4>
+          <p class="text-secondary mangtxt"><i class="far fa-clock"></i>JULY 22,2019</p>
+        </div>
+        <img src="images/856f8f024161bedaf85af8901c1df728.jpg" alt="" class="img-thumbnail col-4 rounded-circle">
+        <div class="text-light">
+          <p>Eng/ Yasmin samak</p>
+          <p class="">Programmer</p>
+        </div>
+      </div>
+      <div class="col-lg-3 manegar1 mt-5 mb-5 manegar  p-3 justify-content-between d-flex flex-column">
+        <div class="">
+          <h4 class="text-light mangtxt">All thanks and appreciation</h4>
+          <p class="text-secondary mangtxt"><i class="far fa-clock"></i>JULY 22,2019</p>
+        </div>
+        <img src="images/856f8f024161bedaf85af8901c1df728.jpg" alt="" class="img-thumbnail col-4 rounded-circle">
+        <div class="text-light">
+          <p>Eng/ Yasmin samak</p>
+          <p class="">Programmer</p>
+        </div>
+      </div>
+      <div class="col-lg-3 manegar1 mt-5 mb-5 manegar  p-3 justify-content-between d-flex flex-column">
+        <div class="">
+          <h4 class="text-light mangtxt">All thanks and appreciation</h4>
+          <p class="text-secondary mangtxt"><i class="far fa-clock"></i>JULY 22,2019</p>
+        </div>
+        <img src="images/856f8f024161bedaf85af8901c1df728.jpg" alt="" class="img-thumbnail col-4 rounded-circle">
+        <div class="text-light">
+          <p>Eng/ Yasmin samak</p>
+          <p class="">Programmer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- ---------------------------end of section4 MANAGERS------- -->
+  <!-- ---------------------------start of section5 world news------- -->
+  <div class="container-fluid">
+    <h2 class="text-info font-weight-bold text-center m-4 ">World news</h2>
+    <div class="container newsbox mb-5 p-3 d-lg-flex   ">
+      <div class="col-12 d-lg-none">
+        <img src="images/pexels-damir-32995053.jpg" alt="" class="news-img1 col-12 ">
+      </div>
+      <div class=" col-lg-7 col-12">
+        <div class="" style="margin-bottom: 20%;">
+          <h3 class="font-weight-bold">Podcast title</h3>
+          <p class=" text-secondary"><i class="fas fa-calendar-alt mr-2"></i>wed,july 22th 2025</p>
+          <hr class="bg-info" style="width: 20%; height: 3px;">
+          <p class="">Minus a natus autem fugit, debitis quos iusto deleniti asperiores, dolores at non consequatur,
+            praesentium optio in! Voluptate. adipisicing elit. Cupiditate nobis saepe labore quasi rem eum aliquam
+            nostrum voluptatem non animi cumque dignissimos deserunt nam blanditiis laborum, sit quae fugit aperiam.</p>
+        </div>
+        <div class="d-flex justify-content-around justify-content-lg-start ">
+          <button class="btn bg-secondary text-light  col-lg-2 col-4"><i class="fas fa-tag mr-2"></i> podcast</button>
+          <button class="btn bg-secondary text-light ml-1 col-lg-3 col-5"><i
+              class="far fa-clock mr-2"></i>55-minutes</button>
+          <button class="btn   btnplay text-light ml-1 col-lg-2 col-3"><i class="fas fa-play mr-2"></i> play</button>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 d-lg-flex d-none">
+        <img src="images/pexels-damir-32995053.jpg" alt="" class="news-img1 col-12 ">
+      </div>
+    </div>
+    <div class="container newsbox mb-5 p-3 d-lg-flex flex-lg-row-reverse ">
+      <div class="col-12 d-lg-none">
+        <img src="images/pexels-kgb0346-32955189.jpg" alt="" class="news-img2 col-12 ">
+      </div>
+      <div class=" col-lg-7 col-12">
+        <div class="" style="margin-bottom: 20%;">
+          <h3 class="font-weight-bold">Podcast title</h3>
+          <p class=" text-secondary"><i class="fas fa-calendar-alt mr-2"></i>wed,july 22th 2025</p>
+          <hr class="bg-info" style="width: 20%; height: 3px;">
+          <p class="">Minus a natus autem fugit, debitis quos iusto deleniti asperiores, dolores at non consequatur,
+            praesentium optio in! Voluptate. adipisicing elit. Cupiditate nobis saepe labore quasi rem eum aliquam
+            nostrum voluptatem non animi cumque dignissimos deserunt nam blanditiis laborum, sit quae fugit aperiam.</p>
+        </div>
+        <div class="d-flex justify-content-around justify-content-lg-start ">
+          <button class="btn bg-secondary text-light  col-lg-2 col-4"><i class="fas fa-tag mr-2"></i> podcast</button>
+          <button class="btn bg-secondary text-light ml-1 col-lg-3 col-5"><i
+              class="far fa-clock mr-2"></i>55-minutes</button>
+          <button class="btn   btnplay text-light ml-1 col-lg-2 col-3"><i class="fas fa-play mr-2"></i> play</button>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 d-lg-flex d-none">
+        <img src="images/pexels-kgb0346-32955189.jpg" alt="" class="news-img2 col-12 ">
+      </div>
+    </div>
+    <div class="container newsbox mb-5 p-3 d-lg-flex  ">
+      <div class="col-12 d-lg-none">
+        <img src="images/pexels-kgb0346-32955189.jpg" alt="" class="news-img1 col-12 ">
+      </div>
+      <div class=" col-lg-7 col-12">
+        <div class="" style="margin-bottom: 20%;">
+          <h3 class="font-weight-bold">Podcast title</h3>
+          <p class=" text-secondary"><i class="fas fa-calendar-alt mr-2"></i>wed,july 22th 2025</p>
+          <hr class="bg-info" style="width: 20%; height: 3px;">
+          <p class="">Minus a natus autem fugit, debitis quos iusto deleniti asperiores, dolores at non consequatur,
+            praesentium optio in! Voluptate. adipisicing elit. Cupiditate nobis saepe labore quasi rem eum aliquam
+            nostrum voluptatem non animi cumque dignissimos deserunt nam blanditiis laborum, sit quae fugit aperiam.</p>
+        </div>
+        <div class="d-flex justify-content-around justify-content-lg-start ">
+          <button class="btn bg-secondary text-light  col-lg-2 col-4"><i class="fas fa-tag mr-2"></i> podcast</button>
+          <button class="btn bg-secondary text-light ml-1 col-lg-3 col-5"><i
+              class="far fa-clock mr-2"></i>55-minutes</button>
+          <button class="btn   btnplay text-light ml-1 col-lg-2 col-3"><i class="fas fa-play mr-2"></i> play</button>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 d-lg-flex d-none">
+        <img src="images/pexels-kgb0346-32955189.jpg" alt="" class="news-img1 col-12 ">
+      </div>
+    </div>
+    <div class="container newsbox mb-5 p-3 d-lg-flex flex-lg-row-reverse ">
+      <div class="col-12 d-lg-none">
+        <img src="images/pexels-damir-32995053.jpg" alt="" class="news-img2 col-12 ">
+      </div>
+      <div class=" col-lg-7 col-12">
+        <div class="" style="margin-bottom: 20%;">
+          <h3 class="font-weight-bold">Podcast title</h3>
+          <p class=" text-secondary"><i class="fas fa-calendar-alt mr-2"></i>wed,july 22th 2025</p>
+          <hr class="bg-info" style="width: 20%; height: 3px;">
+          <p class="">Minus a natus autem fugit, debitis quos iusto deleniti asperiores, dolores at non consequatur,
+            praesentium optio in! Voluptate. adipisicing elit. Cupiditate nobis saepe labore quasi rem eum aliquam
+            nostrum voluptatem non animi cumque dignissimos deserunt nam blanditiis laborum, sit quae fugit aperiam.</p>
+        </div>
+        <div class="d-flex justify-content-around justify-content-lg-start ">
+          <button class="btn bg-secondary text-light  col-lg-2 col-4"><i class="fas fa-tag mr-2"></i> podcast</button>
+          <button class="btn bg-secondary text-light ml-1 col-lg-3 col-5"><i
+              class="far fa-clock mr-2"></i>55-minutes</button>
+          <button class="btn   btnplay text-light ml-1 col-lg-2 col-3"><i class="fas fa-play mr-2"></i> play</button>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 d-lg-flex d-none">
+        <img src="images/pexels-damir-32995053.jpg" alt="" class="news-img2 col-12 ">
+      </div>
+    </div>
+    <div class="container-fluid d-lg-flex justify-content-around  ">
+      <div class="col-lg-2 col-11 mb-5 mt-5 rounded text-center"
+        style="box-shadow: 1px 1px 10px 1px rgb(23, 160, 160) ;height: 30vh;">
+        <p class="font-weight-bold text-info" style="font-size: 35px;">Follow us</p>
+        <img src="images/صورة_واتساب_بتاريخ_2025-07-11_في_01.38.11_0f1f327a-removebg-preview.png" alt=""
+          class="col-5 mb-3" style="filter: drop-shadow(1px 1px 10px  black);">
+        <p class="" style="font-size: 25px;"><a href="#" class="text-info text-decoration-none"> press here</a> </p>
+      </div>
+      <div class="col-lg-2 mb-5 mt-5 col-11 rounded text-center"
+        style="box-shadow: 1px 1px 10px 1px rgb(23, 160, 160) ;height: 30vh;">
+        <p class="font-weight-bold text-info" style="font-size: 35px;">Follow us</p>
+        <img src="images/صورة_واتساب_بتاريخ_2025-07-11_في_01.38.12_401b446f-removebg-preview.png" alt=""
+          class="col-5 mb-3" style="filter: drop-shadow(1px 1px 10px  black);">
+        <p class="" style="font-size: 25px;"><a href="#" class="text-info text-decoration-none"> press here</a> </p>
+      </div>
+      <div class="col-lg-2 mb-5 mt-5 col-11 rounded text-center"
+        style="box-shadow: 1px 1px 10px 1px rgb(23, 160, 160) ;height: 30vh;">
+        <p class="font-weight-bold text-info" style="font-size: 35px;">Follow us</p>
+        <img src="images/صورة_واتساب_بتاريخ_2025-07-11_في_01.38.13_ea976398-removebg-preview.png" alt=""
+          class="col-5 mb-3" style="filter: drop-shadow(1px 1px 10px  black);">
+        <p class="" style="font-size: 25px;"><a href="#" class="text-info text-decoration-none"> press here</a> </p>
+      </div>
+      <div class="col-lg-2 mb-5 mt-5 col-11 rounded text-center"
+        style="box-shadow: 1px 1px 10px 1px rgb(23, 160, 160) ;height: 30vh;">
+        <p class="font-weight-bold text-info" style="font-size: 35px;">Follow us</p>
+        <img src="images/صورة_واتساب_بتاريخ_2025-07-11_في_01.38.14_449292f6-removebg-preview.png" alt=""
+          class="col-5 mb-3" style="filter: drop-shadow(1px 1px 10px  black);">
+        <p class="" style="font-size: 25px;"><a href="#" class="text-info text-decoration-none"> press here</a> </p>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------end of section5 worldnews------ -->
+  <!-- ---------------------------start of footer------ -->
+  <footer class="container-fluid bg-info ">
+    <div class=" d-lg-flex text-center">
+      <div class="col-lg-4 col-12">
+        <hr class="bg-light" style="height: 2px;">
+        <img src="images/6048b4ae7f74724389d345767e8061a0.jpg " alt="" class="mr-2 rounded-circle head-img my-2">
+        <span class="text-light font-weight-bold" style="font-size: 20px;">contact TRAVEL company</span>
+        <hr class="bg-light" style="height: 2px;">
+        <p class="text-light"><a href="#" class="text-light">Tel : 000-000-000</a></p>
+        <p class="text-light"><a href="#" class="text-light">Address : EGYPT</a></p>
+        <p class="text-light"><a href="#" class="text-light">Fax : 000-000-000</a></p>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <hr class="bg-light" style="height: 2px;">
+        <img src="images/6048b4ae7f74724389d345767e8061a0.jpg " alt="" class="mr-2 rounded-circle head-img my-2">
+        <span class="text-light font-weight-bold" style="font-size: 20px;">follow TRAVEL company</span>
+        <hr class="bg-light" style="height: 2px;">
+        <p class="text-light"><a href="#" class="text-light">YOUTUBE</a></p>
+        <p class="text-light"><a href="#" class="text-light">INSTGRAM</a></p>
+        <p class="text-light"><a href="#" class="text-light">FACEBOOK</a></p>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <hr class="bg-light" style="height: 2px;">
+        <img src="images/6048b4ae7f74724389d345767e8061a0.jpg " alt="" class="mr-2 rounded-circle head-img my-2">
+        <span class="text-light font-weight-bold" style="font-size: 20px;"> TRAVEL company manegars</span>
+        <hr class="bg-light" style="height: 2px;">
+        <p class="text-light"><a href="#" class="text-light">YASMIN SAMAK</a></p>
+        <p class="text-light"><a href="#" class="text-light">ARWA SAMAK</a></p>
+        <p class="text-light"><a href="#" class="text-light">RANDA SAMAK</a></p>
+      </div>
+    </div>
+    <hr class="bg-light" style="height: 2px;">
+    <P class="text-secondary text-center" style="font-size: 25px;">COPYRIGHT &copy; 2020 YASMIN SAMAK ,TRAVELcompany</P>
+    <hr class="bg-light " style="height: 2px; ">
+  </footer>
+  <!-- ---------------------------end of footer------ -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
